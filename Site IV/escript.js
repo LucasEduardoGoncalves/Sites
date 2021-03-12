@@ -5,7 +5,7 @@ function tabuada(){
         window.alert('[ERRO]Por favor preencha os dados e tente novamente.')
     } else {
         let n = Number(nun.value)
-        let c = 1
+        let c = 5
         tab.innerHTML = ''
         while(c <= 10){
             let item = document.createElement('option')
